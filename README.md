@@ -1,7 +1,7 @@
 # rv32m-multiplier-and-divider
 a multiplier/divider verilog RTL file for RV32M instructions 
 
-Division is a basic calculation of verilog RTL design. Most design needs 32 cycles to finish a 32bit/32bit division. I have a simple method to  decrease cycles, which depends on how many bits of the quotient.  Let's have a simple example :
+Division is a basic calculation of verilog RTL design. Most design needs 32 cycles to finish a 32bit/32bit division. I have a simple method to  decrease cycles, which depends on how many "1" bits of the quotient.  Let's have a simple example :
 
 * Dividend:  'b100011
 
